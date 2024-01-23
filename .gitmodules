@@ -1,0 +1,3 @@
+[submodule "models2"]
+	path = models2
+	url = https://github.com/osrf/gazebo_models.git
