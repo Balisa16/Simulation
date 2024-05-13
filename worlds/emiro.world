@@ -113,7 +113,7 @@
       <include>
         <uri>model://emiro_drone</uri>
       </include>
-      <pose> 0.60 -1.25 0.05 0 0 0</pose>
+      <pose> 0.60 -1.25 0.00 0 0 0</pose>
     </model>
   </world>
 </sdf>
