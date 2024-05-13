@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <sdf version='1.6'>
   <model name='emiro_pad'>
-    <link name='link_1_clone'>
+    <link name='pad_dalam_kiri'>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -99,7 +99,7 @@
         </surface>
       </collision>
     </link>
-    <link name='link_1_clone_clone'>
+    <link name='pad_luar_kiri'>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -197,7 +197,7 @@
         </surface>
       </collision>
     </link>
-    <link name='link_1_clone_clone_0'>
+    <link name='pad_luar_kanan'>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -393,7 +393,7 @@
         </surface>
       </collision>
     </link>
-    <link name='link_1_clone_clone_0_clone_0'>
+    <link name='pad_outdoor_kiri_1'>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -491,7 +491,7 @@
         </surface>
       </collision>
     </link>
-    <link name='link_1_clone_clone_0_clone_0_clone'>
+    <link name='pad_outdoor_kiri_2'>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -589,7 +589,7 @@
         </surface>
       </collision>
     </link>
-    <link name='link_1_clone_clone_0_clone_0_clone_0'>
+    <link name='pad_outdoor_kanan_2'>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -687,7 +687,7 @@
         </surface>
       </collision>
     </link>
-    <link name='link_1_clone_clone_0_clone_0_clone_1'>
+    <link name='pad_outdoor_kanan_1'>
       <inertial>
         <mass>1</mass>
         <inertia>
