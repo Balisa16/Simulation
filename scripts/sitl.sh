@@ -2,22 +2,24 @@
 
 sim()
 {
-    roslaunch simulation scan.launch
+	roslaunch simulation scan.launch
 }
 
 sitl()
 {
-    cd ~/drone/ardupilot/ArduCopter/
-    . ~/.profile
-    sim_vehicle.py -v ArduCopter -f gazebo-iris --console
+	local currentdir=$(pwd)
+	cd /home/dev/drone/ardupilot/ArduCopter
+	. ~/.profile
+	sim_vehicle.py -v ArduCopter -f gazebo-iris --console
+	cd $currentdir
 }
 
 apm_sim()
 {
-    roslaunch simulation apm.launch
+	roslaunch simulation apm.launch
 }
 
 apm()
 {
-    roslaunch mavros apm.launch
+	roslaunch mavros apm.launch
 }
